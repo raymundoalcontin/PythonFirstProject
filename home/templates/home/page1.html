@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Page</title>
+</head>
+<body>
+    <h1>Adder</h1>
+    <p>Total Count: {{count}}</p>
+    <form method="POST">
+    {% csrf_token %}
+    <button type="submit">ADD</button>
+</form>
+</body>
+</html>
